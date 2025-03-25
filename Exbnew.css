@@ -1,0 +1,151 @@
+body {
+    background-color: #2C3E50;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.artists{
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+    gap: 20px; 
+}
+.artist{
+    text-align: center;
+    width: 30%; 
+    padding: 15px;
+    border: 2px solid #F4D03F;
+    border-radius: 10px;
+    background-color: #34495E; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    }
+.artist:hover {
+    cursor: pointer;
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    }
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #F4D03F; 
+    margin-bottom: 20px;
+}
+header p {
+    font-size: 18px;
+    color: white;
+}
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #F4D03F;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #F4D03F;
+    border-radius: 10px;
+    background-color: #34495E;
+}
+section h2 {
+    font-size: 30px;
+    color: #F4D03F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ul li strong {
+    color: #F4D03F;
+}
+legend{
+    color:#F4D03F
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form input,form select,form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #BDC3C7;
+    background-color: #34495E;
+    color: white;
+}
+form button {
+    background-color: #F4D03F;
+    color: black;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #F39C12;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495E;
+    color: #BDC3C7;
+    margin-top: 40px;
+}
+footer p {
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#featured-artists {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#featured-artists div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+
+    form input,
+    form select,
+    form button {
+        font-size: 14px;
+    }
+}

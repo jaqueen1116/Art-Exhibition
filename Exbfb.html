@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exhibition Feedback</title>
+    <link rel="stylesheet" href="Exbnew.css">
+</head>
+<body>
+    <header>
+        <h1>Exhibition Feedback - Vote for Your Favorite Artist</h1>
+    </header>
+    <nav>
+        <a href="Exbhome.html">Home</a>
+        <a href="Exbtheme.html">Exhibition Theme</a>
+        <a href="Exbartists.html">Artists</a>
+        <a href="Exbfb.html">Feedback</a>
+    </nav>
+    <section id="poll">
+        <h2>Who is your favorite artist?</h2>
+        <form id="pollf">
+            <label>
+                <input type="radio" name="artist" value="Van Gogh"> Vincent Van Gogh
+            </label><br>
+            <label>
+                <input type="radio" name="artist" value="Da Vinci"> Leonardo Da Vinci
+            </label><br>
+            <label>
+                <input type="radio" name="artist" value="Picasso"> Pablo Picasso
+            </label><br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Share your thoughts about the exhibition"></textarea><br>
+            <button type="submit">Submit Vote</button>
+        </form>
+    </section>
+    <section id="results" style="text-align: center;">
+        <h2>Poll Results</h2>
+        <div id="VGR">Vincent Van Gogh: 0 votes</div>
+        <div id="DVR">Leonardo Da Vinci: 0 votes</div>
+        <div id="PR">Pablo Picasso: 0 votes</div>
+    </section>
+    <section id="comments">
+        <h2>User Comments</h2>
+        <div id="VGC">
+            <h3>Comments for Vincent Van Gogh:</h3>
+        </div>
+        <div id="DVC">
+            <h3>Comments for Leonardo Da Vinci:</h3>
+        </div>
+        <div id="PC">
+            <h3>Comments for Pablo Picasso:</h3>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Art Exhibition. All rights reserved.</p>
+    </footer>
+    <script src="EXHIBITION.js"></script>
+</body>
+</html>

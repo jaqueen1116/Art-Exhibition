@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artists</title>
+        <link rel="stylesheet" href="Exbnew.css">
+       <style>
+            header p {
+                text-align: center;
+                font-size: 20px;
+                color: #BDC3C7; 
+                margin-top: 0;
+            }
+            section {
+                display: flex; 
+                justify-content: space-between; 
+                padding: 20px;
+                gap: 20px; 
+            }
+            section div {
+                text-align: center;
+                width: 30%; 
+                padding: 15px;
+                border: 2px solid #F4D03F;
+                border-radius: 10px;
+                background-color: #34495E; 
+                transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            }
+            section div:hover {
+                cursor: pointer;
+                transform: translateY(-10px); 
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+            }
+            section img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px; 
+            }
+            section h3 {
+                font-size: 22px;
+                color: #F4D03F;
+                margin-top: 15px;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Artists</h1>
+            <p>Explore the masterpieces of history's most famous artists.</p>
+        </header>
+        <nav>
+            <a href="Exbhome.html">Home</a>
+            <a href="Exbtheme.html">Exhibition Theme</a>
+            <a href="Exbartists.html">Artists</a>
+            <a href="Exbfb.html">Feedback</a>
+        </nav>
+        <section>
+            <div>
+                <a href="vangogh.html">
+                    <img src="https://th.bing.com/th/id/R.df7107c7f449c7dcdfad29025b0a2225?rik=GKkgqpclZKjVMA&riu=http%3a%2f%2fuploads5.wikiart.org%2fimages%2fvincent-van-gogh%2fself-portrait-1886.jpg&ehk=VLNzK5A6PEj2PgNDVYOW8zHWnm1zMF1TikirGRDAHfI%3d&risl=&pid=ImgRaw&r=0"  alt="Vincent Van Gogh" height="500">
+                <h3>Vincent Van Gogh</h3>
+                </a>
+                <p>A Dutch post-impressionist, van Gogh is best known for Starry Night and Sunflowers. 
+                    His expressive use of color and bold brushwork revolutionized art, despite struggling 
+                    with mental health issues during his life.</p>
+            </div>
+            <div>
+                <a href="davinci.html">
+                    <img src="https://media.architecturaldigest.com/photos/5cc7424b04c41e35f09a7a7e/master/pass/GettyImages-146331532.jpg" alt="Leonardo da Vinci" height="500">
+                    <h3>Leonardo da Vinci</h3>
+                </a>
+                <p>An Italian Renaissance genius, da Vinci is known for masterpieces like Mona Lisa and 
+                    The Last Supper. He was also an inventor, engineer, and scientist, making him one of 
+                    history’s greatest polymaths.</p>
+            </div>
+            <div>
+                <a href="pablo.html">
+                    <img src="https://th.bing.com/th/id/R.4df9e405d8db9744b702902b84e7e867?rik=yb1HUw%2fBZJyE%2bA&riu=http%3a%2f%2fmymodernmet.com%2fwp%2fwp-content%2fuploads%2f2016%2f12%2f1-picasso-self-portrait.jpg&ehk=Zd7PAHTNdKlmfGNZDq9N0corBbf0WZ8hqL0VeUz7LZg%3d&risl=&pid=ImgRaw&r=0" alt="Pablo Picasso" height="500">
+                    <h3>Pablo Picasso</h3>
+                </a>
+                <p>A Spanish artist, Picasso co-founded Cubism and created iconic works such as Guernica. 
+                    His work spanned many styles and periods, influencing modern art with his creativity 
+                    and innovation.</p>
+            </div>
+        </section>
+    </body>
+</html>
