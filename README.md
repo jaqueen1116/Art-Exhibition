@@ -26,7 +26,7 @@ This website is an online art exhibition showcasing famous artists and their wel
 1. **Clone the Repository**:
    - Click the green **Code** button and copy the URL to clone the repository:
      ```bash
-     git clone https://github.com/jaqueen/Art-Exhibition.git
+     git clone https://github.com/jaqueen1116/Art-Exhibition.git
      ```
 
 2. **Navigate to the Project Folder**:
